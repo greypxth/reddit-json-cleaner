@@ -17,8 +17,10 @@
 You don't need a Reddit API key or developer account.
 
 1.  **Open Reddit:** Go to any post, subreddit feed, or user profile.
+
 2.  **The Shortcut:** Add `.json` to the very end of the URL.
     * *Example:* `reddit.com/r/science/comments/abc/` → `reddit.com/r/science/comments/abc/.json`
+    
 3.  **Save:** Press `Ctrl + S` (or `Cmd + S`) to save the page as `reddit.json` in the same folder as this script.
 
 ---
@@ -29,7 +31,9 @@ You require **Python 3.x** (Standard library only; no `pip install` needed).
 
 ### 1. Quick Start (Installation)
 1. **Create the Script:** Open your code editor (VS Code, Replit, or Notepad), create a new file named `main.py`, and paste the script code(you will find it in the file "main.py" in this repo) into it.
+
 2. **Prepare the Data:** Place your downloaded `reddit.json` in the **same folder** as `main.py`.
+
 3. **Run the Program:**
    * **Terminal/VS Code:** Type `python main.py`
    * **Replit:** Hit the green **Run** button.
