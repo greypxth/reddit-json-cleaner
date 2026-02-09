@@ -57,15 +57,15 @@ Choose to either print the result to your terminal or save it to `cleaned.txt` f
 Copy and paste the block below into your AI (ChatGPT, Claude, Gemini). This ensures the LLM understands the hierarchy, metadata, and context logic perfectly.
 
 ```text
-**System Instructions:**
+System Instructions:
 I am providing a cleaned Reddit dataset formatted for high token efficiency and logical tracking. Please process the data according to these rules:
 
-1. **Hierarchy Tracking:** The symbol ">" represents a top-level comment. Multi-level symbols (e.g., ">>", ">>>") represent nested replies. Maintain this parent-child relationship during analysis.
-2. **Metadata Anchor:** Each block includes Author, Score, and "Replying to". Use the Score to weight the importance of arguments and "Replying to" to verify the conversation flow.
-3. **Context Awareness:** If a block contains "[Context: Subreddit | Post]", treat it as a distinct discussion topic to avoid cross-contamination of ideas.
-4. **Task:** Analyze the provided threads to identify core arguments, sentiment shifts, and consensus points.
+1. Hierarchy Tracking: The symbol ">" represents a top-level comment. Multi-level symbols (e.g., ">>", ">>>") represent nested replies. Maintain this parent-child relationship during analysis.
+2. Metadata Anchor: Each block includes Author, Score, and "Replying to". Use the Score to weight the importance of arguments and "Replying to" to verify the conversation flow.
+3. Context Awareness: If a block contains "[Context: Subreddit | Post]", treat it as a distinct discussion topic to avoid cross-contamination of ideas.
+4. Task: Analyze the provided threads to identify core arguments, sentiment shifts, and consensus points.
 
-**User Request:** [INSERT YOUR SPECIFIC REQUEST HERE, e.g., "Summarize the top 3 most controversial opinions and why they were debated."]
+User Request: [INSERT YOUR SPECIFIC REQUEST HERE, e.g., "Summarize the top 3 most controversial opinions and why they were debated."]
 
 ---
 [PASTE DATA FROM CLEANED.TXT HERE]
